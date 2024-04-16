@@ -8,7 +8,7 @@ public class FactorialFinderTest {
         FactorialFinder factorialFinder = new FactorialFinder(0);
         int factorialOfZero = factorialFinder.getFactorial();
 
-        assertEquals(factorialOfZero,1);
+        assertEquals(1,factorialOfZero);
     }
 
     @Test
@@ -17,7 +17,7 @@ public class FactorialFinderTest {
 
         int factorialOfOne = factorialFinder.getFactorial();
 
-        assertEquals(factorialOfOne,1);
+        assertEquals(1,factorialOfOne);
     }
 
     @Test
@@ -26,7 +26,7 @@ public class FactorialFinderTest {
 
         int factorialOfNegativeOne = factorialFinder.getFactorial();
 
-        assertEquals(factorialOfNegativeOne,-1);
+        assertEquals(-1,factorialOfNegativeOne);
     }
 
     @Test
@@ -36,7 +36,7 @@ public class FactorialFinderTest {
 
         int factorialOfFive = factorialFinder.getFactorial();
 
-        assertEquals(factorialOfFive,120);
+        assertEquals(120,factorialOfFive);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class FactorialFinderTest {
 
         int factorialOfNine = factorialFinder.getFactorial();
 
-        assertEquals(factorialOfNine,362880);
+        assertEquals(362880,factorialOfNine);
 
     }
 }
